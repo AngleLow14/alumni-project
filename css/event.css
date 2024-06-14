@@ -1,0 +1,166 @@
+.navbar{
+    width: 100%;
+    height: 100%;
+    background: ghostwhite;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width: 99%;
+    height: auto;
+    background-color: rgba(255, 255, 255, .15);
+    border: 2px solid rgba(0, 0, 0, .2);
+    border-radius: 15px;
+}
+
+h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: ghostwhite;
+    box-shadow: -3px -3px 5px grey, 
+                2px 2px 3px black;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: lime;
+    box-shadow: 3px 3px 5px white, 
+                -1px -1px 3px black;
+    color: white;            
+}
+
+.events{
+    width: 99%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+table{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td{
+    width: 100%;
+    column-span: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: ghostwhite;
+    box-shadow: -3px -3px 5px grey, 
+                2px 2px 3px black;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover{
+    background: lime;
+    box-shadow: 3px 3px 5px white, 
+                -1px -1px 3px black;
+    color: white;            
+}
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        width: 100%;
+        height: 100%;
+        background: ghostwhite;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .container{
+        width: 99%;
+        height: auto;
+        background-color: rgba(255, 255, 255, .15);
+        border: 2px solid rgba(0, 0, 0, .2);
+        border-radius: 15px;
+    }
+    
+    h4{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn{
+        width: 150px;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+        background: ghostwhite;
+        box-shadow: -3px -3px 5px grey, 
+                    2px 2px 3px black;
+        transition: .3s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .btn:hover{
+        background: lime;
+        box-shadow: 3px 3px 5px white, 
+                    -1px -1px 3px black;
+        color: white;            
+    }
+    
+    .events{
+        width: 99%;
+        height: auto;
+        margin-bottom: 10px;
+        border: 5px solid black;
+        border-radius: 10px;
+    }
+    
+    table{
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    td{
+        width: 100%;
+        column-span: 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    button{
+        width: 150px;
+        height: 50px;
+        border: none;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        background: ghostwhite;
+        box-shadow: -3px -3px 5px grey, 
+                    2px 2px 3px black;
+        transition: .3s ease-in-out;
+        cursor: pointer;
+    }
+}
